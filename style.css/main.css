@@ -304,16 +304,18 @@ select option{
         margin-top:40px;
     }
     .wrds{
-        
-        top: 310px;
-        right: 55px;
+        position: absolute;
+        top: 65%;
+        left:50% ;
         font-size: 35px;
     }
     .wrd{
-        top: 300px;
-        left: 25px;
+        position: absolute;
+        top: 70%;
+        left:70% ;
         font-size: 35px;
     }
+
 
 
 }
