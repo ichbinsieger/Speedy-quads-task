@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    background-color: #0392BF ;
+    font-family: 'Open Sans', sans-serif;
+   
+
+}
+.side{
+    width: 80px;
+    height: 100vh;
+    background-color: rgb(212, 200, 223);
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+
+
+   
+}
+.topicon{
+    
+    font-size: 30px;
+    margin-top: 50px;
+    border: 4px solid rgb(82, 79, 75) ;
+    border-radius: 50%;
+    background-color: rgb(82, 79, 75);
+}
+.fa-sync{
+    color: rgb(221, 205, 205);
+    padding: 3px;
+}
+.Smedia{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+
+}
+.media{
+    color:rgb(82, 79, 75) ;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+    margin: 5px;
+    
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.shoe{
+    background-image: url(/images/skate.png);
+    width: 60%;
+    background-size:700px 100vh;  
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+}
+li{
+    list-style: none;
+}
+.info{
+    
+    width: 522px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+li{
+    padding-left: 60px;
+    font-size: 15px;
+}
+.wrds{
+  text-align: center;
+  position: relative;
+  top: 360px;
+  right: 130px;
+   font-size: 50px;
+   color: rgb(247, 242, 235);
+   letter-spacing: 5px;
+}
+.wrd{
+    text-align: center;
+  position: relative;
+  top: 350px;
+  right: 80px;
+   font-size: 50px;
+   color: rgb(247, 242, 235);
+    
+}
+
+.cart{
+   margin-left: 450px;
+   margin-top: 50px;
+   color: rgb(245, 241, 236);    
+}
+.inform{
+    align-items: flex-start;
+    margin-top: 100px;
+}
+.wstar{
+    display: flex;
+    word-spacing: 5px;
+}
+.special{
+    font-size: 24px;
+    color: rgb(255, 251, 251);
+
+}
+.stars{
+    color: rgb(145, 212, 9);
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.fa-star{
+    padding-right: 5px;
+}
+.fade{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgba(223, 219, 219, 0.439);
+}
+h2{
+    font-size: 17px;
+    color: rgb(221, 208, 208);
+}
+.lore{
+    padding-top: 10px;
+    font-size: 14px;
+    color: white;
+    line-height: 22px;
+}
+.hide{
+    display: none;
+}
+
+
+
+
+.buy{
+    text-decoration: underline;
+    letter-spacing: 4px;
+    padding-top: 10 px;
+}
+h3{
+    color: rgb(255, 249, 249);
+    margin-top: 5px;
+}
+.change{
+    display: flex;
+    margin-top: 25px;
+
+}
+.changecolor{
+    display: flex;
+    margin-left: 40px ;
+    padding-bottom: 5px;
+}
+.changeC{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.grey,.pink,.yellow,.white{
+   
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border:  1px solid white;
+}
+.grey{
+    background-color: grey;
+
+}
+.pink{
+   background-color:pink;
+}
+.yellow{
+    background-color: yellow;
+
+}
+.white{
+    background-color: white;
+}
+.payment{
+    display: flex;
+    margin-top: 20px;
+    
+}
+select{
+    padding-left: 50px;
+    background-color: transparent;
+    color: thistle;
+    margin-left: 30px;
+    border-color: rgba(243, 233, 215, 0.33);
+}
+
+
+select option{
+    background: transparent;
+  
+}
+.complete{
+    background-color: rgb(175, 130, 130);
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(213, 238, 213);
+    border: none;
+    
+}
+@media (max-width:500px){
+
+    .main{
+        flex-direction: column;
+        height: auto;
+        
+        
+    }
+    
+    ul{
+        padding: 0;
+        margin: 0;
+        margin-top: 25px;
+       
+    }
+
+    li{
+        font-size: 12px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .hide{
+        display: block;
+    }
+    .shoe{
+        width: 100%;
+        height: 100vh;
+        background-size: 400px700px;
+        
+    }
+    .cart{
+        display: none;
+    }
+    .side{
+        background-color: rgb(212, 200, 223);
+        height: auto;
+    }
+    .icon{
+       
+        background-color: rgb(212, 200, 223);
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200vh;
+        
+    }
+    body{
+        
+        width: fit-content;
+        height: 200vh;
+    }
+    .inform{
+        margin-top:-5px;
+        height: fit-content;
+        
+    }
+    .lore{
+        margin-top: 30px;
+    }
+    .buy{
+        margin-top: 100px;
+    }
+    .payment{
+        margin-top:40px;
+    }
+
+}
