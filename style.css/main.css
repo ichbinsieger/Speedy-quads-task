@@ -63,7 +63,7 @@ body{
 
 }
 .shoe{
-    background-image: url(../images/skate.png);
+    background-image: url(./images/skate.png);
     width: 60%;
     background-size:700px 100vh;  
     background-repeat: no-repeat;
